@@ -1,0 +1,42 @@
+<html>
+<head>
+ <h1 style=color:green>login page</h1>
+       
+    
+             <script>
+                  function login()
+{
+   var Username=document.getElementById("Username").value;
+  var password=document.getElementById("password").value;
+
+
+  if(Username=="Aditya" && password=="Aditya")
+    {
+    document.write("welcome to Aditya University");
+    }
+  else 
+    {
+        document.write("invalid username and password");
+    }
+}
+
+
+     </script>
+</head>
+<body>
+       <tr>
+           <td> username </td>
+           <input type="text" id="Username">
+            <br>
+        </tr>
+         <tr>
+           <td> password </td>
+           <input type="password" id="password">
+           <br>
+         </tr>
+<input type="button" value="login" onclick="login();">
+
+          </body>
+
+</html>          
+   

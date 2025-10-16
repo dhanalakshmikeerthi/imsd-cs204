@@ -1,0 +1,39 @@
+<html>
+<head>
+    <script>
+          function largestnumber(){
+
+          var a=parseInt(prompt("enter a value"));
+          
+          var b=parseInt(prompt("enter b value"));
+            
+          var c=parseInt(prompt("enter c value"));
+         
+      if(a>b && a>c)
+{
+  document.write(a);
+}
+else if(b>c && b>a)
+{
+document.write(b);
+}
+else if(c>a && c>b)
+{
+document.write(c);
+}
+else if(a==b && b==c)
+{
+document.write("EQUAL NUMBERS");
+}
+else
+{
+document.write("invalid");
+}
+}
+ </script>
+<body>
+<input type="Button" value="LARGEST NUMBER" onclick="largestnumber();">
+</body>
+
+</head>
+</html>

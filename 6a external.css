@@ -1,0 +1,4 @@
+function display()
+{
+document.write("welcome to external javascript");
+}

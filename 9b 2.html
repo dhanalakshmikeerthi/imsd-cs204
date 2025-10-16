@@ -1,0 +1,21 @@
+<html>
+<head>
+<script>
+        function fibonacci()
+        {
+         var a=parseInt(window.prompt("enter number:"));
+         var n1=0,n2=1,n3;
+         var i;
+          for (i = 1; i <= a; i++) {
+            document.write(n1);
+            n3 = n1 + n2;
+            n1 = n2;
+            n2 = n3;
+        }
+    }
+</script>
+</head>
+<body>
+    <button onclick="fibonacci()">Fibonacci</button>
+</body>
+</html>    
